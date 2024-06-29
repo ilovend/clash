@@ -18,7 +18,7 @@ jobs:
 
     - name: Initialize Go module
       run: |
-        cd your-project-directory
+        cd clash
         go mod init github.com/ilovend/clash/
 
     - name: Build
