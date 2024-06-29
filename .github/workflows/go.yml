@@ -18,7 +18,7 @@ jobs:
 
     - name: Initialize Go module
       run: |
-        cd clash
+        cd ${{ github.workspace }}
         go mod init github.com/ilovend/clash/
 
     - name: Build
